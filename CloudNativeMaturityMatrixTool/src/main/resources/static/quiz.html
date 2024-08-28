@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./scripts/script.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="./style/styles.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+  <div class="base">
+    <div class="container">
+      <div class="reset">
+        <button class="btn reset">RESET</button>
+      </div>
+      <h2 class="questionTitle">Template Title</h2>
+      <p class="question">Template Question</p>
+
+      <div>
+        <input
+          type="radio"
+          name="originalOpt"
+          value="Yes"
+          class="originalOpt"
+        />
+        <label for="yes" class="originalOptLabel">Yes</label>
+      </div>
+
+      <div>
+        <input type="radio" name="originalOpt" value="No" class="originalOpt" />
+        <label for="no" class="originalOptLabel" >No</label>
+      </div>
+
+      <div class="additionalQuestion"></div>
+    </br>
+    <div class = "foot">
+    <div class="right">
+        <button class="btn next">Next</button>
+    </div>
+      <div class="left">
+        <button class="btn prev">Prev</button>
+      </div>
+    </div>
+    </div>
+  </div>
+  </body>
+</html>

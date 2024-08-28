@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./scripts/scriptRetrive.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="./style/styles.css" />
+    <title>Retrive</title>
+  </head>
+  <body>
+  <div class="base">
+    <div class="container">
+      <div class="reset">
+        <button class="btn reset">HOME</button>
+        <button class="btn retrieve" id="btnRetrieve">RETRIEVE</button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="36"
+          viewBox="0 0 32 36"
+          id="download"
+          class="hide"
+        >
+          <path
+            id="bxs-download"
+            d="M36,16.5H28V4.5H16v12H8l14,16ZM6,36.5H38v4H6Z"
+            transform="translate(-6 -4.5)"
+          />
+        </svg>
+      </div>
+      <div id="detailsContainer">
+        <label for="email">Email:</label><br />
+        <input type="text" id="email" name="email" /><br />
+        <p>
+          <button class="btn submit" type="submit">Submit</button>
+        </p>
+      </div>
+
+      <div class="allResultsContainer" id="allResultsContainer">
+        <ul class="resultList" id="resultList"></ul>
+      </div>
+      <div class="singleResult hide"></div>
+    </div>
+  </div>
+  </body>
+</html>
